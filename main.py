@@ -24,7 +24,7 @@ total_day = 25 #total days back
 commit_frequency = 3 #commit time per day
 pointer = 0
 # for repo in repos:
-repo_link = "https://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@github.com/superadona119/statement.git"
+repo_link = "https://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@github.com/goldtech119/statement.git"
 
 tl = total_day #time day
 ctr = 1
@@ -32,8 +32,8 @@ ctr = 1
 now = datetime.datetime.now()
 
 f = open("commit.txt", "w")
-os.system("git config user.name \"superadona119\"")
-os.system("git config user.email adonadev5@gmail.com")
+os.system("git config user.name \"goldtech119\"")
+os.system("git config user.email goldtech119@gmail.com")
 os.system("git init")
 
 pointer = 25
